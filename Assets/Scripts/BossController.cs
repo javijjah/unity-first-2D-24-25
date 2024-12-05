@@ -4,13 +4,25 @@ using UnityEngine;
 
 public class BossController : MonoBehaviour
 {
-    FollowState currentState = new FollowState();
+    [SerializeField] private GameObject ToxicArea;
+
+    State currentState;
+    List<State> states = new List<State>();
 
     // ready
     void Start() 
     {
+        /*
         // inicializar estados:
         //      definir estado inicial
+        currentState = new FollowState(this);
+        //      crear lista de estados
+        states.Add(currentState);
+        states.Add(new RageState());
+        states.Add(new SpitState());
+        states.Add(new BurpState());
+        states.Add(new RecoveryState());
+        */
         //      preparar sistema de eventos
     }
 
@@ -18,13 +30,12 @@ public class BossController : MonoBehaviour
     private void FixedUpdate()
     {
         // llamar fixedupdate del estado actual
-        currentState.FixedUpdate();
     }
 
     // process
     void Update()
     {
         // llamar update del estado actual
-        currentState.Update();
+        //currentState.Update();
     }
 }
