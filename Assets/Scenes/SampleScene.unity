@@ -11939,6 +11939,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1774373112110196403, guid: cba0f87b08d655a4993e32b24d498d2b, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 226466827}
+    - target: {fileID: 1774373112110196403, guid: cba0f87b08d655a4993e32b24d498d2b, type: 3}
       propertyPath: ToxicArea
       value: 
       objectReference: {fileID: 248195346127487389}

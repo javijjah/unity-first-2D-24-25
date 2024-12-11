@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class BurpState : State
 {
-    public BurpState(MonoBehaviour boss) : base(boss) {}
+    public BurpState(BossController boss) : base(boss) {}
 
     public override void Entry()
     {
-        // activar animaci�n follow
+        base.Entry();
+        Debug.Log("Burp State Entered");
+        // activar animación follow
     }
 
     public override void Exit()
     {
-        // terminar animaci�n follow
+        // terminar animación follow
     }
 
     public override void Update()

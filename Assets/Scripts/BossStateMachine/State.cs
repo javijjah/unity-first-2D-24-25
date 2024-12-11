@@ -6,9 +6,10 @@ using UnityEngine;
 
 public class State : IState
 {
-    MonoBehaviour Boss;
+    protected BossController Boss;
+    private Vector2 PlayerDistance;
 
-    public State(MonoBehaviour Boss)
+    public State(BossController Boss)
     {
         this.Boss = Boss;
     }
@@ -25,6 +26,10 @@ public class State : IState
 
     public virtual void Update()
     {
+        // calcular distancia al jugador
+        // reducir vida
+        Boss.currentHealth -= 0.01f;
         // dejar que cada estado lo cambie
+
     }
 }
