@@ -327,3 +327,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de264230bcc8fb44f9c5d01ac6253a8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ToxicArea: {fileID: 0}
+  Player: {fileID: 0}
+  Bullet: {fileID: 7252643422022012165, guid: d74e62d42c9a7b8489353c20900c2069, type: 3}
+  firePoint: {fileID: 8636563346488724124}
+  currentHealth: 0

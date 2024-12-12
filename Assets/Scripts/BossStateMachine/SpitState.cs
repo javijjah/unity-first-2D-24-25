@@ -12,7 +12,8 @@ public class SpitState : State
         Debug.Log("Spit State Entered");
         
         // instanciar proyectil
-        
+        //Boss.Bullet.Instantiate(Boss.firePoint.position,B);
+        Object.Instantiate(Boss.Bullet, Boss.firePoint.position, Boss.firePoint.rotation);
         // siguiente estado
         Boss.ChangeStateKey(States.Recovery);
     }

@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 2.0f;
     [SerializeField] private float jumpForce = 5.0f;
     [SerializeField] private Transform rayCastPosition;
-
+    [SerializeField] private int health;
     private SpriteRenderer spriteRenderer;
     private Rigidbody2D rigidBody2D;
     private Animator animator;
@@ -66,6 +66,7 @@ public class PlayerController : MonoBehaviour
     {
         var rayCast = Physics2D.Raycast(rayCastPosition.position, -transform.up, .1f);
 
+
         if (rayCast.collider != null)
         {
             if (!onAir)
@@ -77,6 +78,11 @@ public class PlayerController : MonoBehaviour
         else onFloor = false;
     }
 
+    public void recieveDamage(int dmg)
+    {
+        health -= dmg;
+        print("Daño recibido, vida actual: " + health);
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //if (collision.gameObject.tag == "Floor")

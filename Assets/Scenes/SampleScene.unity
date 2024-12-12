@@ -4683,6 +4683,7 @@ MonoBehaviour:
   speed: 5
   jumpForce: 5
   rayCastPosition: {fileID: 644395691}
+  health: 200
 --- !u!95 &226466828
 Animator:
   serializedVersion: 5

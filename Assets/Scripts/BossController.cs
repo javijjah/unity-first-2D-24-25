@@ -6,7 +6,9 @@ public class BossController : MonoBehaviour
 {
     [SerializeField] private GameObject ToxicArea;
     [SerializeField] private PlayerController Player;
+    [SerializeField] public GameObject Bullet;
 
+    public Transform firePoint;
     public float currentHealth;
     private float maxHealth = 200;
     
@@ -14,7 +16,7 @@ public class BossController : MonoBehaviour
     Dictionary<States, State> statesDict = new Dictionary<States, State>();
 
     // ready
-    void Start() 
+    void Start()
     {
         // inicializar datos boss
         currentHealth = maxHealth;

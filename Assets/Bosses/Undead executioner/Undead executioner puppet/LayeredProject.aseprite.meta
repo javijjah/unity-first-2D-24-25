@@ -310,7 +310,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: LayeredProject_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         width: 45
         height: 62
       spriteId: fd3a6c0f08553b64da6a3185c38a18b3
-    - name: LayeredProject_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -328,7 +328,7 @@ ScriptedImporter:
         width: 45
         height: 60
       spriteId: aba87ed4554e00c4dbdb9e8fd2b511f4
-    - name: LayeredProject_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -337,7 +337,7 @@ ScriptedImporter:
         width: 45
         height: 60
       spriteId: a9ab5a83511281149a513130813d592e
-    - name: LayeredProject_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -346,7 +346,7 @@ ScriptedImporter:
         width: 45
         height: 57
       spriteId: 7b1d1f2fdb4d3ef478d2c9a697d128bf
-    - name: LayeredProject_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -355,7 +355,7 @@ ScriptedImporter:
         width: 45
         height: 62
       spriteId: 12e01d520bac2f641a7f602f9e24dd1d
-    - name: LayeredProject_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -364,7 +364,7 @@ ScriptedImporter:
         width: 31
         height: 66
       spriteId: 661e2c933002be84d8d78764b8ede89d
-    - name: LayeredProject_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -373,7 +373,7 @@ ScriptedImporter:
         width: 66
         height: 71
       spriteId: ee3e3d7cca396c547965d83d728df8c1
-    - name: LayeredProject_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -382,7 +382,7 @@ ScriptedImporter:
         width: 58
         height: 54
       spriteId: d5218cd8415011744a28b14f4ed918cb
-    - name: LayeredProject_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
